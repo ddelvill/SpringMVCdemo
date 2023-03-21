@@ -23,9 +23,14 @@
     <form th:object="${estudiante}">
 
         <label for="nombre">Nombre: </label>
-        <input type="text" name="nombre" id="nombre" th:field="*{nombre}">
+        <input type="text" name="nombre" id="nombre" th:field="*{nombre}"> 
 
+           <!-- Los asterisccos en th field hacen referencia a campos del objeto.  -->
+        <label for="primerApellido">Primer Apellido: </label>
+        <input type="text" name="primerApellido" id="primerApellido" th:field="*{primerApellido}"> 
 
+        <label for="segundoApellido">Segundo Apellido: </label>
+        <input type="text" name="segundoApellido" id="segundoApellido" th:field="*{segundoApellido}"> 
 
 
 
