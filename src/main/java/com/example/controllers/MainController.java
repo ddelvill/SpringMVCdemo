@@ -56,9 +56,6 @@ public class MainController {
         return "views/formularioAltaEstudiante";
      }
 
-<<<<<<< Updated upstream
-
-=======
      /**
       * Metodo que recibe los datos procedentes de los controles del formulario.
       */
@@ -68,5 +65,4 @@ public class MainController {
         
       }
     
->>>>>>> Stashed changes
 }
